@@ -98,8 +98,8 @@ class Personize
 			gsub('%','c/o ').
 			gsub(/ +/,' ').
 			gsub(/^&/,'').
-			gsub(/&$/,'')
-			gsub(/ INC/i, ', INC').
+			gsub(/&$/,'').
+			gsub(/ INC\.?/i, ', INC').
 			gsub(/ LTD/i, ', LTD').
 			gsub(/ LLP/i, ', LLP').
 			gsub(/L L C/i, 'LLC').
@@ -107,7 +107,7 @@ class Personize
 			gsub(/ LP/i, ', LP').
 			gsub(/ ETAL/i,', ET AL').
 			gsub(',,',','). 
-			gsub(/  /i,' ')
+			gsub(/  /,' ')
 	end
 
 
