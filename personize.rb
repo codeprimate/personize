@@ -80,7 +80,7 @@ class Personize
 					out = ['Unknown' , nil    , nil        , nil    , line      , line      , record]
 				end
 			end
-			puts out.join(" | ") unless out.empty?
+			puts out.join("|") unless out.empty?
 		end
 	end
 
