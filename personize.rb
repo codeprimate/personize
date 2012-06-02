@@ -42,9 +42,6 @@ class Personize
 	}
 
 	def initialize
-		@filename      = ARGV[0]
-		@data          = []
-		@out           = []
 		@read_strategy = ARGF					# Must quack like IO
 	end
 
