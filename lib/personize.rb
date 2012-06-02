@@ -41,8 +41,13 @@ class Personize
 			}
 	}
 
-	def initialize
-		@read_strategy = ARGF					# Must quack like IO
+	def initialize(read_strategy=:stdin)
+		case read_strategy
+		when :stdin
+			@read_strategy = ARGF					# Must quack like IO
+		else
+			@read_strategy = ARGF					# Must quack like IO
+		end
 	end
 
 	def go
@@ -77,7 +82,7 @@ class Personize
 					out = ['Unknown' , nil    , nil        , nil    , line      , line      , record]
 				end
 			end
-			puts out.join("|") unless out.empty?
+			puts out.join("|") unless record.empty?
 		end
 	end
 
