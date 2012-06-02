@@ -1,8 +1,9 @@
 # Personize
-&copy;2012 Patrick Morgan
-Freely licensed under the GPL v3.0
-
 A name splitter and classifier.
+
+	&copy;2012 Patrick Morgan
+	Freely licensed under the GPL v3.0
+
 
 Takes a stream containing single column of individual or company
 names and outputs a pipe separated text stream containing the
