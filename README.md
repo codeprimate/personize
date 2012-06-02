@@ -1,4 +1,6 @@
 # Personize
+&copy;2012 Patrick Morgan
+Freely licensed under the GPL v3.0
 
 A name splitter and classifier.
 
@@ -20,4 +22,4 @@ following fields:
 	cat data | ruby personize.rb 
 
 
-## Requires Ruby 1.8.7+
+*Requires Ruby 1.8.7+*
