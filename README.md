@@ -1,7 +1,7 @@
 # Personize
 A name splitter and classifier.
 
-	&copy;2012 Patrick Morgan
+	(c)2012 Patrick Morgan
 	Freely licensed under the GPL v3.0
 
 
