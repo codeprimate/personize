@@ -125,5 +125,3 @@ class Personize
 	end
 
 end
-
-Personize.new.go

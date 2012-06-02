@@ -1,0 +1,4 @@
+#!/usr/bin/env Ruby
+
+require 'personize'
+Personize.new.go
