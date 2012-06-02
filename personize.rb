@@ -1,6 +1,4 @@
 class Personize
-	require 'rubygems'
-	require 'ruby-debug'
 
 	COMPANY_FLAGS = [ "LLC", "TRUST", "INC", "BANK", "LP", "LC", "LTD", "ASSOC", "CORP", "CO", "PC", "CITY",
 		"INVEST", "COMPANY", "PROPERTIES", "ETAL", "SERVICES", "CHURCH", "PARTNERSHIP", "HOME",
